@@ -1,0 +1,71 @@
+{
+  "schema": 2,
+  "normalization": "softmax1",
+  "members": [
+    {
+      "key": "v10_binary_raw_0_bce_43",
+      "kind": "binary",
+      "weight": 0.25287499999999996,
+      "scale": 3.6527271270751953,
+      "version": "v10",
+      "file": "v10_binary_raw_0_bce_43.npz",
+      "dim": 0,
+      "mode": "raw"
+    },
+    {
+      "key": "v7_group_128_128_group_71",
+      "kind": "group",
+      "weight": 0.25287499999999996,
+      "scale": 1.7983614206314087,
+      "version": "v7",
+      "file": "v7_group_128_128_group_71.npz",
+      "dim": 128,
+      "kind_features": "base"
+    },
+    {
+      "key": "v6_robust_128_103",
+      "kind": "robust",
+      "weight": 0.21675,
+      "scale": 1.5948902368545532,
+      "version": "v6",
+      "file": "v6_robust_128_103.npz",
+      "dim": 128,
+      "kind_features": "base"
+    },
+    {
+      "key": "v9_boost_context_bce_4_29",
+      "kind": "boost",
+      "weight": 0.1275,
+      "scale": 2.017840451780994,
+      "version": "v9",
+      "file": "v9_boost_context_bce_4_29.cbm",
+      "mode": "context",
+      "projection_file": "v9_boost_context_bce_4_29_projection.npz"
+    },
+    {
+      "key": "v7_group_128_64_group_43",
+      "kind": "group",
+      "weight": 0.15,
+      "scale": 2.6098921298980713,
+      "version": "v7",
+      "file": "v7_group_128_64_group_43.npz",
+      "dim": 128,
+      "kind_features": "base"
+    }
+  ],
+  "validation_accuracy": 94.9874686716792,
+  "validation_hard_accuracy": 88.16901408450704,
+  "training_split": "train",
+  "selection_split": "validation",
+  "test_references_used": false,
+  "stack": {
+    "name": "stack_Logloss_3",
+    "loss": "Logloss",
+    "depth": 3,
+    "trees": 100,
+    "stack_weight": 0.5,
+    "nll": 0.35265984355553026,
+    "accuracy": 94.9874686716792,
+    "file": "stack.cbm"
+  }
+}

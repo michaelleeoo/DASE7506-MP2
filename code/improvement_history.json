@@ -1,0 +1,102 @@
+{
+  "final": "results_stack",
+  "evaluations": [
+    {
+      "version": "results",
+      "correct": 376,
+      "n": 467,
+      "accuracy": 80.51391862955032,
+      "wall_seconds": 0.5282521001063287,
+      "asset_bytes": 557939
+    },
+    {
+      "version": "results_v10",
+      "correct": 392,
+      "n": 467,
+      "accuracy": 83.94004282655246,
+      "wall_seconds": 3.0433189999312162,
+      "asset_bytes": 4659717
+    },
+    {
+      "version": "results_v11",
+      "correct": 390,
+      "n": 467,
+      "accuracy": 83.5117773019272,
+      "wall_seconds": 2.8089563003741205,
+      "asset_bytes": 3503679
+    },
+    {
+      "version": "results_v2",
+      "correct": 377,
+      "n": 467,
+      "accuracy": 80.72805139186295,
+      "wall_seconds": 1.9046637997962534,
+      "asset_bytes": 2713877
+    },
+    {
+      "version": "results_v3",
+      "correct": 384,
+      "n": 467,
+      "accuracy": 82.22698072805139,
+      "wall_seconds": 1.7800735998898745,
+      "asset_bytes": 2745137
+    },
+    {
+      "version": "results_v4",
+      "correct": 384,
+      "n": 467,
+      "accuracy": 82.22698072805139,
+      "wall_seconds": 1.9160451996140182,
+      "asset_bytes": 2044153
+    },
+    {
+      "version": "results_v5",
+      "correct": 387,
+      "n": 467,
+      "accuracy": 82.86937901498929,
+      "wall_seconds": 3.0284115998074412,
+      "asset_bytes": 5091858
+    },
+    {
+      "version": "results_v6",
+      "correct": 393,
+      "n": 467,
+      "accuracy": 84.1541755888651,
+      "wall_seconds": 2.839013200253248,
+      "asset_bytes": 3690248
+    },
+    {
+      "version": "results_v7",
+      "correct": 385,
+      "n": 467,
+      "accuracy": 82.44111349036403,
+      "wall_seconds": 3.977010100148618,
+      "asset_bytes": 6261423
+    },
+    {
+      "version": "results_v8",
+      "correct": 393,
+      "n": 467,
+      "accuracy": 84.1541755888651,
+      "wall_seconds": 3.33193500014022,
+      "asset_bytes": 3690457
+    },
+    {
+      "version": "results_v9",
+      "correct": 390,
+      "n": 467,
+      "accuracy": 83.5117773019272,
+      "wall_seconds": 1.9420838002115488,
+      "asset_bytes": 2625793
+    },
+    {
+      "version": "results_stack",
+      "correct": 395,
+      "n": 467,
+      "accuracy": 84.58244111349036,
+      "wall_seconds": 1.4712922000326216,
+      "asset_bytes": 3754806
+    }
+  ],
+  "note": "Multiple frozen versions evaluated during development; no test-reference lookups in methods; not a single untouched blind-test run."
+}

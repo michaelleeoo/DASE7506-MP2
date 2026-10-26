@@ -1,0 +1,60 @@
+{
+  "frozen_at_utc": "2026-10-26T13:56:42.602960+00:00",
+  "assets": {
+    "config.json": {
+      "bytes": 1862,
+      "sha256": "50665495f248b9e803273276bbaf045d6dbc0c3ff8fb095eae4c4975fad284b6"
+    },
+    "pca_v3.npz": {
+      "bytes": 1053186,
+      "sha256": "6f88c5379a0c7fdd4da9247fbabd70797e526ceb697521041307e6c41747989e"
+    },
+    "stack.cbm": {
+      "bytes": 64328,
+      "sha256": "ec7444b9aad526bc6116226de8b5adba69c8562039a657a9e18fa6f7ba3fd765"
+    },
+    "v10_binary_raw_0_bce_43.npz": {
+      "bytes": 600162,
+      "sha256": "976866d15f1ec058230123fce5c1790739e702bab5b9af8c26477aa113dd6421"
+    },
+    "v6_robust_128_103.npz": {
+      "bytes": 235642,
+      "sha256": "7e0236a530b91a0cd2ae89e66ad8a22067a1b506653ba739d9f0f73da93da882"
+    },
+    "v7_group_128_128_group_71.npz": {
+      "bytes": 366760,
+      "sha256": "938870298c235c876db51263d2770e83bfbd0f957cfe51a306c3f4ed73dc431f"
+    },
+    "v7_group_128_64_group_43.npz": {
+      "bytes": 186280,
+      "sha256": "9a62d6dec3ca5e383b34bdc66f37b39f2bdf58209560193aa2dbde550119153c"
+    },
+    "v9_boost_context_bce_4_29.cbm": {
+      "bytes": 112344,
+      "sha256": "ddb68f69fb4d285a30d3a4893f1111793def1f10122b26ea332e8f9f4f6fbb1c"
+    },
+    "v9_boost_context_bce_4_29_projection.npz": {
+      "bytes": 1134242,
+      "sha256": "0ad4023cfb79dfd3a6d38a0ca23ccbf9032cf27093d51ebd0d22d1f5c74e45fd"
+    }
+  },
+  "source_hashes": {
+    "submission_stack.py": "d7d5c73c55215c14aac0a3f4f4c8c3048a7ba22c3f2ea91175264eeda493c135",
+    "submission_v6.py": "5075352382799c80a702470cd118d6323e32c3509f0f9ad61a462feb1a464312",
+    "submission.py": "9730ddbffefd3e7777728982515db38ad5ec022ed2c8d1550d8ee4a0c9bdb42f",
+    "features_v2.py": "8219f3a3a92977d605a58487d01bea4d78ce9a29f348d0cc37b9f209690df8b8",
+    "features_v3.py": "44c4458c25de6ab05bc06e91460801d2205c223e9daa2a737cd8e84cbdf8bb82",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c"
+  },
+  "asset_bytes": 3754806,
+  "selection": {
+    "name": "stack_Logloss_3",
+    "loss": "Logloss",
+    "depth": 3,
+    "trees": 100,
+    "stack_weight": 0.5,
+    "nll": 0.35265984355553026,
+    "accuracy": 94.9874686716792
+  },
+  "note": "Meta model fitted to training-only out-of-fold predictions; tree count and mixture selected on validation, frozen before this version test evaluation."
+}

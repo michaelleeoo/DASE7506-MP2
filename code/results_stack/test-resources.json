@@ -1,0 +1,75 @@
+{
+  "split": "test",
+  "wall_seconds": 1.4712922000326216,
+  "prediction_process_seconds": 1.271395799703896,
+  "scoring_process_seconds": 0.19989309972152114,
+  "thread_limit": 4,
+  "local_cpu": "AMD Ryzen 7 7800X3D 8-Core Processor",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "assets": {
+    "config.json": {
+      "bytes": 1862,
+      "sha256": "50665495f248b9e803273276bbaf045d6dbc0c3ff8fb095eae4c4975fad284b6"
+    },
+    "pca_v3.npz": {
+      "bytes": 1053186,
+      "sha256": "6f88c5379a0c7fdd4da9247fbabd70797e526ceb697521041307e6c41747989e"
+    },
+    "stack.cbm": {
+      "bytes": 64328,
+      "sha256": "ec7444b9aad526bc6116226de8b5adba69c8562039a657a9e18fa6f7ba3fd765"
+    },
+    "v10_binary_raw_0_bce_43.npz": {
+      "bytes": 600162,
+      "sha256": "976866d15f1ec058230123fce5c1790739e702bab5b9af8c26477aa113dd6421"
+    },
+    "v6_robust_128_103.npz": {
+      "bytes": 235642,
+      "sha256": "7e0236a530b91a0cd2ae89e66ad8a22067a1b506653ba739d9f0f73da93da882"
+    },
+    "v7_group_128_128_group_71.npz": {
+      "bytes": 366760,
+      "sha256": "938870298c235c876db51263d2770e83bfbd0f957cfe51a306c3f4ed73dc431f"
+    },
+    "v7_group_128_64_group_43.npz": {
+      "bytes": 186280,
+      "sha256": "9a62d6dec3ca5e383b34bdc66f37b39f2bdf58209560193aa2dbde550119153c"
+    },
+    "v9_boost_context_bce_4_29.cbm": {
+      "bytes": 112344,
+      "sha256": "ddb68f69fb4d285a30d3a4893f1111793def1f10122b26ea332e8f9f4f6fbb1c"
+    },
+    "v9_boost_context_bce_4_29_projection.npz": {
+      "bytes": 1134242,
+      "sha256": "0ad4023cfb79dfd3a6d38a0ca23ccbf9032cf27093d51ebd0d22d1f5c74e45fd"
+    }
+  },
+  "asset_bytes": 3754806,
+  "asset_mib": 3.580862045288086,
+  "reference_machine_verified": false,
+  "commands": [
+    [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\predict.py",
+      "--method",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\submission_stack.py",
+      "--checkpoint",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\model_bundle_stack",
+      "--split",
+      "test",
+      "--output",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\results_stack\\test-predictions.json"
+    ],
+    [
+      "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\score_predictions.py",
+      "--split",
+      "test",
+      "--predictions",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\results_stack\\test-predictions.json",
+      "--output",
+      "E:\\7506 HW\\DASE7506-MP2-main\\code\\results_stack\\test-score.json"
+    ]
+  ]
+}

@@ -1,0 +1,3 @@
+-r requirements-improved-inference.txt
+torch==2.4.0
+scikit-learn==1.7.2
